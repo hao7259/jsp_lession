@@ -28,7 +28,7 @@
     <%
         request.setCharacterEncoding("utf-8");
         String englishText = request.getParameter("english");
-        ArrayList<Word> wordList = new ArrayList<Word>();
+        ArrayList<Word> wordList = new ArrayList<>();
         Pattern pattern;
         Matcher matcher;
         String regex = "[a-zA-Z]+";
