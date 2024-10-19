@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+    <servlet>
+        <servlet-name>handleForward</servlet-name>
+        <servlet-class>com.hao.handleForward</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>handleForward</servlet-name>
+        <url-pattern>/handleForward</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>personOne</servlet-name>
+        <servlet-class>com.hao.PersonOne</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>personOne</servlet-name>
+        <url-pattern>/personOne</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>personTwo</servlet-name>
+        <servlet-class>com.hao.PersonTwo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>personTwo</servlet-name>
+        <url-pattern>/personTwo</url-pattern>
+    </servlet-mapping>
+</web-app>

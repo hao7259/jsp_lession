@@ -10,6 +10,13 @@
 <head>
 	<title>Title</title>
 </head>
+<style>
+	form{
+		margin: 60px auto;
+		width: 600px;
+		height: 200px;
+	}
+</style>
 <body>
 <form action="">
 	汽车牌号：<input type="text" name="num"><br>
