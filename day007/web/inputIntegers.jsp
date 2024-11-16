@@ -18,6 +18,5 @@
   <input type="submit" name="submit" value="提交，查看personOne分析"/>
   <input type="submit" name="submit" value="提交，查看personTwo分析"/>
 </form>
-
 </body>
 </html>

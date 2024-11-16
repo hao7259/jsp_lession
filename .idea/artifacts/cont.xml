@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cont">
+    <output-path>$PROJECT_DIR$/out/artifacts/cont</output-path>
+    <root id="archive" name="cont.war">
+      <element id="artifact" artifact-name="day007:war exploded" />
+      <element id="artifact" artifact-name="day01:war exploded" />
+      <element id="artifact" artifact-name="day02:war exploded" />
+      <element id="artifact" artifact-name="day03:war exploded" />
+      <element id="artifact" artifact-name="day04:war exploded" />
+      <element id="artifact" artifact-name="day05:war exploded" />
+      <element id="artifact" artifact-name="day06:war exploded" />
+      <element id="artifact" artifact-name="day08:war exploded" />
+    </root>
+  </artifact>
+</component>
